@@ -1,0 +1,163 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 65443 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51761
+Successfully changed project path to: C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011
+C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   27.20.15003.1004
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000804 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.8 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 2.207300 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.772900 ms  DeleteObjects: 0.166600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass_flowerse32965c36f070e45.terrainlayer
+  artifactKey: Guid(8c9aff780d1dd5f429b522756724265c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass_flowerse32965c36f070e45.terrainlayer using Guid(8c9aff780d1dd5f429b522756724265c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54874efcab18a3541b91d8e3cb382b09') in 0.065452 seconds
+  Import took 0.067800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Stone_rotatedcc0f254a2c535401.terrainlayer
+  artifactKey: Guid(8489606345c2d64408042e99691dffb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Stone_rotatedcc0f254a2c535401.terrainlayer using Guid(8489606345c2d64408042e99691dffb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0819388471f5815a60eccd177251f062') in 0.009036 seconds
+  Import took 0.010991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grasse32965c36f070e45.terrainlayer
+  artifactKey: Guid(149e167355749db40853849930240704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grasse32965c36f070e45.terrainlayer using Guid(149e167355749db40853849930240704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da866f1619d39c08114eec43724eefa6') in 0.009152 seconds
+  Import took 0.011288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(457000bf9f55eb94fa9f28c91fa11be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red.mat using Guid(457000bf9f55eb94fa9f28c91fa11be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95ca025890c52758cca409d43bb1a49') in 0.100227 seconds
+  Import took 0.102257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Stonecc0f254a2c535401.terrainlayer
+  artifactKey: Guid(6470ebde2595d884a9c5b50453f11822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Stonecc0f254a2c535401.terrainlayer using Guid(6470ebde2595d884a9c5b50453f11822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fd383331baa077b7c54975264cd371') in 0.009155 seconds
+  Import took 0.011492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Roadcc0f254a2c535401.terrainlayer
+  artifactKey: Guid(17309ecf22a8e674ab4fd112f0824a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Roadcc0f254a2c535401.terrainlayer using Guid(17309ecf22a8e674ab4fd112f0824a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a817e5c5e62198d805d8d808fce2a3c1') in 0.010389 seconds
+  Import took 0.012726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(f02f2bba4d73c9c4d8b84698bc17a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue.mat using Guid(f02f2bba4d73c9c4d8b84698bc17a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aece955ab55dfa6d3ee59e5ac0ca83e5') in 0.023346 seconds
+  Import took 0.025723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground_stonee32965c36f070e45.terrainlayer
+  artifactKey: Guid(b2d2accc1c52d99459ad1d91d0e87c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground_stonee32965c36f070e45.terrainlayer using Guid(b2d2accc1c52d99459ad1d91d0e87c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5edb59b568324381c9212c4635eec1') in 0.008202 seconds
+  Import took 0.010495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(f02f2bba4d73c9c4d8b84698bc17a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue.mat using Guid(f02f2bba4d73c9c4d8b84698bc17a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aece955ab55dfa6d3ee59e5ac0ca83e5') in 0.009801 seconds
+  Import took 0.011507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Road_grasscc0f254a2c535401.terrainlayer
+  artifactKey: Guid(f3941ba9057d8184f90eb809c44fb95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Road_grasscc0f254a2c535401.terrainlayer using Guid(f3941ba9057d8184f90eb809c44fb95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1328077dc5e3f8ca2d167a0798f10a79') in 0.008618 seconds
+  Import took 0.010953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grounde32965c36f070e45.terrainlayer
+  artifactKey: Guid(33ec5b90731403148ae6df36a3928797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grounde32965c36f070e45.terrainlayer using Guid(33ec5b90731403148ae6df36a3928797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68988ac84ac07a1753ebda7769cac7d2') in 0.008558 seconds
+  Import took 0.011055 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
