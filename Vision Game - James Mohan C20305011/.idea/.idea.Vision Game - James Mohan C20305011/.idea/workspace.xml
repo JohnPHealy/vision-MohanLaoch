@@ -15,9 +15,10 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevelOnTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IdealOn.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IdealOff.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
     </changedPaths>
   </component>
@@ -64,6 +65,8 @@
       <updated>1618067630098</updated>
       <workItem from="1618067637761" duration="950000" />
       <workItem from="1618680678438" duration="2165000" />
+      <workItem from="1618753469856" duration="198000" />
+      <workItem from="1618753717556" duration="3837000" />
     </task>
     <servers />
   </component>

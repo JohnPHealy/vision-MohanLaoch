@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="IdealOff.cs" t="Include" />
           <e p="IdealOn.cs" t="Include" />
+          <e p="LoadLevelOnTrigger.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
         </e>

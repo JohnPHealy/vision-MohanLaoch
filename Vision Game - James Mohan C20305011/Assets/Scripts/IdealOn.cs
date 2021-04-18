@@ -5,7 +5,7 @@ using UnityEngine;
 public class IdealOn : MonoBehaviour
 {
 
-    public GameObject CubeB;
+    public GameObject Ideal;
     
     // Start is called before the first frame update
     void Start()
@@ -18,11 +18,11 @@ public class IdealOn : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.V))
         {
-            CubeB.SetActive(true);
+            Ideal.SetActive(true);
         }
         else
         {
-            CubeB.SetActive(false);
+            Ideal.SetActive(false);
         }
     }
 }
