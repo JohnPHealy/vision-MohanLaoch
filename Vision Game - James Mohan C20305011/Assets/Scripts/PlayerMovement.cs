@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,11 +19,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     private bool isGrounded;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public IdealOn VisionMechanic;
 
     // Update is called once per frame
     void Update()
@@ -51,5 +48,15 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("powerup"))
+        {
+            PlayerPrefs.SetInt("IsPoweredUp",1);
+            Destroy(other.gameObject);
+            VisionMechanic.startcount();
+        }
     }
 }

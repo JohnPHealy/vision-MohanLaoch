@@ -1,11 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class IdealOn : MonoBehaviour
 {
 
     public GameObject Ideal;
+    public GameObject UnIdeal;
+
+    public float Timer = 5;
+
+    private bool IsIdeal = false;
+
+    public int Uses = 3;
+
+    public TextMeshProUGUI UsesText;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -16,13 +27,42 @@ public class IdealOn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.V))
+        UsesText.text = "Uses Remaining:" + Uses.ToString("0");
+        
+        if (Input.GetKey(KeyCode.V) && Uses >0)
+        {
+            if (!IsIdeal)
+            {
+                StartCoroutine(Count());
+            }
+        }
+
+        if (IsIdeal)
         {
             Ideal.SetActive(true);
+            UnIdeal.SetActive(false);
         }
         else
         {
+            UnIdeal.SetActive(true);
             Ideal.SetActive(false);
         }
     }
+
+    public void startcount()
+    {
+        StartCoroutine(Count());
+    }
+
+    IEnumerator Count()
+    {
+        if (PlayerPrefs.GetInt("IsPoweredUp") == 1)
+        {
+            Uses--;
+            IsIdeal = true;
+            yield return new WaitForSeconds(Timer);
+            IsIdeal = false;
+        }
+    }
+
 }
