@@ -15,11 +15,11 @@ C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James M
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62640
+50358
 Successfully changed project path to: C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011
 C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.15 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.97 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,106 +35,2067 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000804 seconds.
+Registered in 0.000826 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
+- Completed reload, in  0.660 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000585 seconds.
+Registered in 0.000825 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.722 seconds
+- Completed reload, in  0.732 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
+System memory in use after: 82.8 MB.
 
-Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1970.
-Total: 2.193900 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.756400 ms  DeleteObjects: 0.192500 ms)
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 2.449400 ms (FindLiveObjects: 0.240900 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.945900 ms  DeleteObjects: 0.209900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(312bf1be566b3ec43ad63353e7ce3315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(312bf1be566b3ec43ad63353e7ce3315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dcd60eb8f0ed546f3f430d066c0c13') in 0.081473 seconds
-  Import took 0.085844 seconds .
+  path: Assets/Scenes/Sewer Mine.unity
+  artifactKey: Guid(f39112a56fbb3be4b9a7cb8da3a13a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sewer Mine.unity using Guid(f39112a56fbb3be4b9a7cb8da3a13a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e2aaec3d8a1a9e311b4789cb46cd1d') in 0.010038 seconds
+  Import took 0.014191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 672.011866 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Bridge.prefab
+  artifactKey: Guid(4634910a8580fb149a1d17bf36f23b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Bridge.prefab using Guid(4634910a8580fb149a1d17bf36f23b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389d6a41dfa641b54a1f301b0414e16c') in 0.098158 seconds
+  Import took 0.102619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Stone02.prefab
+  artifactKey: Guid(ef49f16d6d1e31248b48d5f57706a650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Stone02.prefab using Guid(ef49f16d6d1e31248b48d5f57706a650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a953876d68d26cbd7c3d06f19a6ab3') in 0.024756 seconds
+  Import took 0.029037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Stone01.prefab
+  artifactKey: Guid(ffec9fe989614a74181de47ce40d9f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Stone01.prefab using Guid(ffec9fe989614a74181de47ce40d9f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5bf3398e77f9cb51950075f8525288') in 0.015969 seconds
+  Import took 0.020684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Water.prefab
+  artifactKey: Guid(94cbe56fc9684464494c9e07134e7731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Water.prefab using Guid(94cbe56fc9684464494c9e07134e7731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b5ff552e31000953139f7f8bb83524') in 0.031394 seconds
+  Import took 0.035859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Stump.prefab
+  artifactKey: Guid(3cf54fe7110fb624283a9c1e886cab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Stump.prefab using Guid(3cf54fe7110fb624283a9c1e886cab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a712ef55fd279aedc92f8fa9030c8ddf') in 0.035950 seconds
+  Import took 0.040279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.908810 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs
+  artifactKey: Guid(814465487a8752545a711663d8e38e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs using Guid(814465487a8752545a711663d8e38e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5780cc5bef5508de46ae00d7fa3240') in 0.006681 seconds
+  Import took 0.014271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.268489 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Props
+  artifactKey: Guid(3c2855af301708f4087573e6530c28e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Props using Guid(3c2855af301708f4087573e6530c28e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b33d4a9379b581f011465cb6c3320d') in 0.006505 seconds
+  Import took 0.010877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114894 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Fence.prefab
+  artifactKey: Guid(8f9905bf996cdc74cb9766b8781e580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Fence.prefab using Guid(8f9905bf996cdc74cb9766b8781e580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9de67df431c0bbc9fa31cfa783a4877') in 0.028716 seconds
+  Import took 0.033407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_OFF_item.prefab
+  artifactKey: Guid(e9470142701b52f44877f69bcd0ae254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_OFF_item.prefab using Guid(e9470142701b52f44877f69bcd0ae254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2144641ee5ccd736942cfd808679530d') in 0.024509 seconds
+  Import took 0.028922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_OFF.prefab
+  artifactKey: Guid(3782a82b94eb9d943bc073a9b0e5ad64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_OFF.prefab using Guid(3782a82b94eb9d943bc073a9b0e5ad64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a03cfcafada28d1c96125e0e2b89d3') in 0.016722 seconds
+  Import took 0.021377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_ON.prefab
+  artifactKey: Guid(ca32c1122ba07f94f8e1633d85222ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_ON.prefab using Guid(ca32c1122ba07f94f8e1633d85222ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf9f12e0029232f7eaf24ecaabb468b') in 0.060574 seconds
+  Import took 0.065349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_ON_item.prefab
+  artifactKey: Guid(36355a8acffc1a3429cbacaa0d858a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_ON_item.prefab using Guid(36355a8acffc1a3429cbacaa0d858a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46458644f7df00c6978bc9310d826a04') in 0.013856 seconds
+  Import took 0.018532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 484.231769 seconds.
+  path: Assets/Prefabs/WoodenSupport.prefab
+  artifactKey: Guid(ce583ea6bd784e3458addad51a9e8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WoodenSupport.prefab using Guid(ce583ea6bd784e3458addad51a9e8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b6f55ac779ad782d0caf88439ce614') in 0.012201 seconds
+  Import took 0.017248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002898 seconds.
+  path: Assets/Prefabs/WoodenSupport.prefab
+  artifactKey: Guid(ce583ea6bd784e3458addad51a9e8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WoodenSupport.prefab using Guid(ce583ea6bd784e3458addad51a9e8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b6f55ac779ad782d0caf88439ce614') in 0.007426 seconds
+  Import took 0.011798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 477.666590 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(8ccdae176922a224c90bbc9b8d79d35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(8ccdae176922a224c90bbc9b8d79d35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50f6a598d6cbbd37ba1d4a6e0b6d426') in 0.002402 seconds
+  Import took 0.006841 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.856 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 2.870700 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.830300 ms  DeleteObjects: 0.803000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 614.266088 seconds.
+  path: Assets/SineVFX/PostProcessingV2
+  artifactKey: Guid(baa2d3d1c14d40e4da5c8a263953d32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2 using Guid(baa2d3d1c14d40e4da5c8a263953d32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3194f74e798aa6b8327b5c0709c0c7e') in 0.009421 seconds
+  Import took 0.012349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257480 seconds.
+  path: Assets/SineVFX/PostProcessingV2/New Post-processing Profile.asset
+  artifactKey: Guid(f043b5f7d71f5934ca0fcbecd6c97782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/New Post-processing Profile.asset using Guid(f043b5f7d71f5934ca0fcbecd6c97782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b08175e31d1bf6a8c7307f5b300ba9') in 0.023713 seconds
+  Import took 0.026234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SineVFX/PostProcessingV2/PostProcessResources.asset
+  artifactKey: Guid(d82512f9c8e5d4a4d938b575d47f88d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/PostProcessResources.asset using Guid(d82512f9c8e5d4a4d938b575d47f88d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156793ff6d4b5cf80073de4c2f7923c3') in 0.039786 seconds
+  Import took 0.043544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.485401 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Shaders
+  artifactKey: Guid(660a3ee04f28e0a4a97dc5831c5a1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Shaders using Guid(660a3ee04f28e0a4a97dc5831c5a1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32751bd1dcd68ccb0fab94267e5c55ee') in 0.006644 seconds
+  Import took 0.009819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.449367 seconds.
+  path: Assets/SineVFX/TranslucentCrystals
+  artifactKey: Guid(0c6b8e5d60d9fa44381a5a682ff8562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals using Guid(0c6b8e5d60d9fa44381a5a682ff8562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc5a6f0c378a5fd4cad2196da8e6e17') in 0.006240 seconds
+  Import took 0.008555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.801451 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs
+  artifactKey: Guid(57ba1372d1301cc4fb18ae9042873fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs using Guid(57ba1372d1301cc4fb18ae9042873fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab72d77bce38077b22aee556e4c97f4') in 0.006528 seconds
+  Import took 0.008738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083007 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab
+  artifactKey: Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab using Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf3254ff514e3d3f06dfc90216bd97') in 0.273298 seconds
+  Import took 0.276371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab
+  artifactKey: Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab using Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a96d00c00896a4de7a430ed85ef2411') in 0.225806 seconds
+  Import took 0.229139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8848deeee43e667f88a6f3724f8d3c') in 0.024355 seconds
+  Import took 0.028243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab
+  artifactKey: Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab using Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67389b132ab3517a3b83ebd2e31b471b') in 0.023364 seconds
+  Import took 0.026729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv04.prefab
+  artifactKey: Guid(ff31047102e4ad54da5383aa244844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv04.prefab using Guid(ff31047102e4ad54da5383aa244844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cee40d4e6e20f3d18defad2580dce96') in 0.020476 seconds
+  Import took 0.023530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab
+  artifactKey: Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab using Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d6dc3e17451ebccd450bed7ca9c6bc') in 0.024138 seconds
+  Import took 0.027185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab
+  artifactKey: Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab using Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8939c64ca75375409eb7dba549ce77c') in 0.022446 seconds
+  Import took 0.026110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab
+  artifactKey: Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab using Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab53be9fc6a87ccd052561b1f3accdcc') in 0.021545 seconds
+  Import took 0.024584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab
+  artifactKey: Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab using Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6956b6a3936cf07238503d98b5950ed4') in 0.021075 seconds
+  Import took 0.024351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab
+  artifactKey: Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab using Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f07c072d0c49deb611dfbb43e11f2b8') in 0.020132 seconds
+  Import took 0.023140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.027381 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials
+  artifactKey: Guid(eb62c70b79cae6d4896d0d4aab2d8b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials using Guid(eb62c70b79cae6d4896d0d4aab2d8b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5cbb3c71da3b197bd63d8ac064656b') in 0.006581 seconds
+  Import took 0.009225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043754 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Birch_bark.mat
+  artifactKey: Guid(88f067c4e4e21e3449805b9f54a85258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Birch_bark.mat using Guid(88f067c4e4e21e3449805b9f54a85258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0ed61120d82c861a58bf39a6c92579') in 0.034272 seconds
+  Import took 0.037151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Mushrooms03.mat
+  artifactKey: Guid(22ea887dce70c8a4981f2efa40d69f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Mushrooms03.mat using Guid(22ea887dce70c8a4981f2efa40d69f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b161a4a9847e4b6d338f3c66a4c5125c') in 0.025901 seconds
+  Import took 0.028794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Bush02.mat
+  artifactKey: Guid(248b7cf269a683c4fa35eae347e84bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Bush02.mat using Guid(248b7cf269a683c4fa35eae347e84bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983aaf043cf2e16e86d7809983123e7b') in 0.021820 seconds
+  Import took 0.024453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Mushrooms01.mat
+  artifactKey: Guid(2da798dd359b0384c9e0ab2d421d8259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Mushrooms01.mat using Guid(2da798dd359b0384c9e0ab2d421d8259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d7665ad754899be9a05db8a052c979') in 0.020201 seconds
+  Import took 0.022812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Bush01.mat
+  artifactKey: Guid(b3380417daec2034d93bd26cf14050e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Bush01.mat using Guid(b3380417daec2034d93bd26cf14050e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7a53f4f525f92ed3fd9c111c86eead') in 0.021662 seconds
+  Import took 0.024290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Oak_branch.mat
+  artifactKey: Guid(f9e15fb8d24923c4b89ad5e2069a749e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Oak_branch.mat using Guid(f9e15fb8d24923c4b89ad5e2069a749e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2047c47b9c6c08d56a52c6fddcc61b') in 0.025436 seconds
+  Import took 0.028100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Skybox_DAY.mat
+  artifactKey: Guid(5c378e2ef25ab334a88daa47d032b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Skybox_DAY.mat using Guid(5c378e2ef25ab334a88daa47d032b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27a46d4c5cc671c2556df96792e7633') in 0.040134 seconds
+  Import took 0.042979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Mushrooms02.mat
+  artifactKey: Guid(0da047a466e56304192a1142a30fe9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Mushrooms02.mat using Guid(0da047a466e56304192a1142a30fe9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359d22277b94408fedff090e4209af49') in 0.024812 seconds
+  Import took 0.027492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Fir_bark.mat
+  artifactKey: Guid(7881a81d11f6fb341a396582ee507e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Fir_bark.mat using Guid(7881a81d11f6fb341a396582ee507e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a96cae42e5cd82bcd305619460541f') in 0.009931 seconds
+  Import took 0.012758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Water.mat
+  artifactKey: Guid(a5e5948ac985ba54381b403abb6f9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Water.mat using Guid(a5e5948ac985ba54381b403abb6f9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eccf0816dd395711f1d24c44c37b675') in 0.009442 seconds
+  Import took 0.012294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Stone01.mat
+  artifactKey: Guid(5a6a284fcef220e4cbee9f3449f05688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Stone01.mat using Guid(5a6a284fcef220e4cbee9f3449f05688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952800c1a6555ef81f87a0e30fa56927') in 0.011806 seconds
+  Import took 0.014039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Streetlight_OFF.mat
+  artifactKey: Guid(c5e691712e1b46a4383d0e53b17736b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Streetlight_OFF.mat using Guid(c5e691712e1b46a4383d0e53b17736b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2b6e375a6b730902b0bf38ded9f7fd') in 0.010034 seconds
+  Import took 0.012952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Stump_tip.mat
+  artifactKey: Guid(549e88fcc1f31da44b2fe9da79c561f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Stump_tip.mat using Guid(549e88fcc1f31da44b2fe9da79c561f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35941a86b238bdea8c3a919e5f0f654f') in 0.010764 seconds
+  Import took 0.013759 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000187 seconds.
-  path: Assets/Scenes/City Forest.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/City Forest.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4ca6e04e681270df7350217f8d0ee5') in 0.005111 seconds
-  Import took 0.008817 seconds .
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Bridge.mat
+  artifactKey: Guid(2b76c6a7f19209d44b972f9272f8f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Bridge.mat using Guid(2b76c6a7f19209d44b972f9272f8f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865904a15e4b86686a228d8297bf08cd') in 0.010683 seconds
+  Import took 0.013652 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.425551 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(c2bb60087ad53274185d73003eed7971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(c2bb60087ad53274185d73003eed7971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c4281d4f425279e7ab952454e4780d') in 0.003639 seconds
-  Import took 0.008027 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Oak_bark.mat
+  artifactKey: Guid(912e20b258c53444eb779e0a8a50abfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Oak_bark.mat using Guid(912e20b258c53444eb779e0a8a50abfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6202bb4f99acab60bd4857ae5aa86f6') in 0.021334 seconds
+  Import took 0.024203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Water_wave.mat
+  artifactKey: Guid(79eaef812c9bef1409c3a4ad3fdee804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Water_wave.mat using Guid(79eaef812c9bef1409c3a4ad3fdee804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916576d18b98df08131efe8515e7e01b') in 0.010153 seconds
+  Import took 0.013185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Birch_branch.mat
+  artifactKey: Guid(ee0734e6008f396418d3f554a811649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Birch_branch.mat using Guid(ee0734e6008f396418d3f554a811649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c605b9d3f0626c1c44b48afb94270031') in 0.022261 seconds
+  Import took 0.024927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Fence.mat
+  artifactKey: Guid(2a65fe797df3b394f9c7cc51db832d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Fence.mat using Guid(2a65fe797df3b394f9c7cc51db832d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68171213d89fe6bec9f1c52892f5b66d') in 0.012268 seconds
+  Import took 0.014737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Skybox_NIGHT.mat
+  artifactKey: Guid(538e81a3dd9acdc428c9dcefcbb6f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Skybox_NIGHT.mat using Guid(538e81a3dd9acdc428c9dcefcbb6f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0655cefc3a383aa0a43f47b7204267a7') in 0.022747 seconds
+  Import took 0.026768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Fir_branch.mat
+  artifactKey: Guid(34393798cc9f8244fb220442dbce74de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Fir_branch.mat using Guid(34393798cc9f8244fb220442dbce74de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3861ac43fbea4f15bd0ba84b246436e6') in 0.019747 seconds
+  Import took 0.024043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Streetlight_ON.mat
+  artifactKey: Guid(bab8772a5337e1e418e19a197f152303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Streetlight_ON.mat using Guid(bab8772a5337e1e418e19a197f152303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a630383a758e6aeccc64d576688e76e') in 0.009432 seconds
+  Import took 0.013243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.363736 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Birch.fbx
+  artifactKey: Guid(a58d4029a00459e4d89ddb56b680be38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Birch.fbx using Guid(a58d4029a00459e4d89ddb56b680be38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee924a3e6cb1d072476caf796df7e8ad') in 0.103534 seconds
+  Import took 0.107722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Fir.fbx
+  artifactKey: Guid(431d920f0b6f5e34f80cdc143fba0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Fir.fbx using Guid(431d920f0b6f5e34f80cdc143fba0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032ea76f9788e0c08e9267ea8c3061e6') in 0.012434 seconds
+  Import took 0.016588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Bridge.fbx
+  artifactKey: Guid(0f5322cf156938a4ca1b757b9ab11f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Bridge.fbx using Guid(0f5322cf156938a4ca1b757b9ab11f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e30d3be5129874966f53be1f4bdd753') in 0.012482 seconds
+  Import took 0.016345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Stone02.fbx
+  artifactKey: Guid(aebdb9b3c2da8e040a42ecc58f39456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Stone02.fbx using Guid(aebdb9b3c2da8e040a42ecc58f39456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cc5878d61425ea4b0323f4eeb26f08') in 0.013986 seconds
+  Import took 0.016832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms03.fbx
+  artifactKey: Guid(d56e8ae00b0790b46a088b268110f038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms03.fbx using Guid(d56e8ae00b0790b46a088b268110f038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d1e575e07fcc054511701a1e0ddf4b') in 0.019031 seconds
+  Import took 0.023168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Bush02.fbx
+  artifactKey: Guid(99283469d080f464d8bf132684290947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Bush02.fbx using Guid(99283469d080f464d8bf132684290947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5174c9a470e189c6605f66788fdc8a') in 0.016518 seconds
+  Import took 0.019095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Water_plane.fbx
+  artifactKey: Guid(a74ecf579ccdda64fb7e3d6ed0101440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Water_plane.fbx using Guid(a74ecf579ccdda64fb7e3d6ed0101440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccad02bacb3c93d073e5987b147f71da') in 0.010703 seconds
+  Import took 0.012986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms01.fbx
+  artifactKey: Guid(70adb64ae377d7e46aff0cde14f8abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms01.fbx using Guid(70adb64ae377d7e46aff0cde14f8abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e848b7d930f36833dd7dd597c6b6dce3') in 0.034348 seconds
+  Import took 0.037314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms02.fbx
+  artifactKey: Guid(db55ef31b71cd8640babb67c08383c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms02.fbx using Guid(db55ef31b71cd8640babb67c08383c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c5ccafd45343e223f5053cc441d1bc') in 0.018628 seconds
+  Import took 0.021431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Fence.fbx
+  artifactKey: Guid(5c759d0ad550736418a7e0602ca2156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Fence.fbx using Guid(5c759d0ad550736418a7e0602ca2156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e28893f6ce4e3e1884c9c7b1905ab67') in 0.012084 seconds
+  Import took 0.014686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Streetlight.fbx
+  artifactKey: Guid(5f0741416272b504489f004f3912e003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Streetlight.fbx using Guid(5f0741416272b504489f004f3912e003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f413b34735042ca0b5f65b4df72882f') in 0.013745 seconds
+  Import took 0.016577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Oak.fbx
+  artifactKey: Guid(6eebcf1884e24384babc25d3234ec0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Oak.fbx using Guid(6eebcf1884e24384babc25d3234ec0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d3175c52b3fe81d26a7c1997bcc944') in 0.012847 seconds
+  Import took 0.015576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Bush01.fbx
+  artifactKey: Guid(89786baddf2d7ea43b337b7b94891289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Bush01.fbx using Guid(89786baddf2d7ea43b337b7b94891289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60e5dc5a78238fcaf003d3416654387') in 0.016670 seconds
+  Import took 0.019160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Stone01.fbx
+  artifactKey: Guid(39cfdea2e9dff824483d972d2d253b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Stone01.fbx using Guid(39cfdea2e9dff824483d972d2d253b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649b1efa8525e2bfb56cfaeecbae7353') in 0.013292 seconds
+  Import took 0.016107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Bush01.fbx
+  artifactKey: Guid(89786baddf2d7ea43b337b7b94891289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Bush01.fbx using Guid(89786baddf2d7ea43b337b7b94891289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60e5dc5a78238fcaf003d3416654387') in 0.008497 seconds
+  Import took 0.011077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Stump.fbx
+  artifactKey: Guid(364aeddfa00a98e41820d829d289215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Stump.fbx using Guid(364aeddfa00a98e41820d829d289215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd92d67b76ffbc05cec00c388069ce69') in 0.011782 seconds
+  Import took 0.014488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Streetlight_item.fbx
+  artifactKey: Guid(fbd5279e40525d54d8e51d9edbafc80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Streetlight_item.fbx using Guid(fbd5279e40525d54d8e51d9edbafc80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de043d61afceb6e36a74d3c32395f3aa') in 0.013743 seconds
+  Import took 0.016826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.101702 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/DEMO/Demo_terrain.asset
+  artifactKey: Guid(e8b144a040126af469be6e95040b0fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/DEMO/Demo_terrain.asset using Guid(e8b144a040126af469be6e95040b0fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fa903a18abeb8fbc58a6dca4818321') in 0.060336 seconds
+  Import took 0.064234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.628215 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(8b84238d653c0c64ab0b3b9d834f22f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(8b84238d653c0c64ab0b3b9d834f22f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286d57647bf813b4727c5a1ebd740c01') in 0.002507 seconds
+  Import took 0.005274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.978034 seconds.
+  path: Assets/Materials/CaveFloor.mat
+  artifactKey: Guid(7db746049cc3b1149969dae4217064cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CaveFloor.mat using Guid(7db746049cc3b1149969dae4217064cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c139b90cf2785b00c5dc6aa5d25274') in 0.011234 seconds
+  Import took 0.022195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.077757 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/SMAA/AreaTex.tga
+  artifactKey: Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/SMAA/AreaTex.tga using Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79b1786d1b0550b631e0f0b5a2a2385') in 0.013719 seconds
+  Import took 0.016811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Bridge_d.png
+  artifactKey: Guid(95437d536ed8667409c811beccfb2c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Bridge_d.png using Guid(95437d536ed8667409c811beccfb2c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9901c54f6b35ee440480ed751e24326') in 0.017296 seconds
+  Import took 0.020010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/CityVoxelPack/Assets/buildings/props/doors/Textures/door.png
+  artifactKey: Guid(1e14c50448a3c5048ab664a3096f3c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityVoxelPack/Assets/buildings/props/doors/Textures/door.png using Guid(1e14c50448a3c5048ab664a3096f3c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f8717fb439dbf35b1f9ffc815f5ad0') in 0.008167 seconds
+  Import took 0.010948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Bridge_d.png
+  artifactKey: Guid(95437d536ed8667409c811beccfb2c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Bridge_d.png using Guid(95437d536ed8667409c811beccfb2c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9901c54f6b35ee440480ed751e24326') in 0.007041 seconds
+  Import took 0.009353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Birch_bark_d.png
+  artifactKey: Guid(b9b6b444c3816a240aaf529b658420b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Birch_bark_d.png using Guid(b9b6b444c3816a240aaf529b658420b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacb060d2b12f2d2645b76e5a6eafbff') in 0.033103 seconds
+  Import took 0.035784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/SMAA/AreaTex.tga
+  artifactKey: Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/SMAA/AreaTex.tga using Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79b1786d1b0550b631e0f0b5a2a2385') in 0.004696 seconds
+  Import took 0.007148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Birch_bark_d.png
+  artifactKey: Guid(b9b6b444c3816a240aaf529b658420b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Birch_bark_d.png using Guid(b9b6b444c3816a240aaf529b658420b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacb060d2b12f2d2645b76e5a6eafbff') in 0.006972 seconds
+  Import took 0.009630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Bush01_d.png
+  artifactKey: Guid(62e28d1aa8762514fa439ffebdf28a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Bush01_d.png using Guid(62e28d1aa8762514fa439ffebdf28a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8df0674a01b49613a7a34ee21cc9388') in 0.010431 seconds
+  Import took 0.012963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Birch_branch_d.png
+  artifactKey: Guid(bdc5797fe8b5f014698ea5f5b2408708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Birch_branch_d.png using Guid(bdc5797fe8b5f014698ea5f5b2408708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f079b148e03eb2eedcf16ad3fc11be40') in 0.009121 seconds
+  Import took 0.011534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/CityVoxelPack/Assets/buildings/medium/Textures/building1.png
+  artifactKey: Guid(fd2bf4e7592e0d54e856b6bfae4555e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityVoxelPack/Assets/buildings/medium/Textures/building1.png using Guid(fd2bf4e7592e0d54e856b6bfae4555e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9f9957359847b16036e28c6c493db9') in 0.007213 seconds
+  Import took 0.009895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Bush02_d.png
+  artifactKey: Guid(c58e1d61e2deedd4989d937c27915f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Bush02_d.png using Guid(c58e1d61e2deedd4989d937c27915f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada221843496458f557584dbf451259c') in 0.010022 seconds
+  Import took 0.012606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.169259 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4448a201f1ea028136b7a645d2a87b59') in 0.017754 seconds
+  Import took 0.020562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Props/Fence_d.png
+  artifactKey: Guid(3be7aa9edebf7d143b02cd75461e2b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Props/Fence_d.png using Guid(3be7aa9edebf7d143b02cd75461e2b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ea3704ce1b9dc08005f373c9e1f5af') in 0.008241 seconds
+  Import took 0.010696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.296825 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Fir_bark_d.png
+  artifactKey: Guid(5d81403ec3e78f24da374ab29fc35889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Fir_bark_d.png using Guid(5d81403ec3e78f24da374ab29fc35889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de50d795065df1e25dceced1d6c97077') in 0.009659 seconds
+  Import took 0.012600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Fir_branch_d.png
+  artifactKey: Guid(87c48f8e50e12894a994ce2c547f6f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Fir_branch_d.png using Guid(87c48f8e50e12894a994ce2c547f6f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae84768649cc65351e2fae095915c1') in 0.008130 seconds
+  Import took 0.010694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.283064 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Grass.png
+  artifactKey: Guid(9709e23867081984fabb092ec5f720be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Grass.png using Guid(9709e23867081984fabb092ec5f720be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c3baa6a97b76fd59030d192142091a') in 0.016634 seconds
+  Import took 0.019772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028714 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Grass_flowers.png
+  artifactKey: Guid(c77f87b18aa424f4e904fd1de19fe247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Grass_flowers.png using Guid(c77f87b18aa424f4e904fd1de19fe247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ae72b2d7daf8aa2a331899543b4022') in 0.015219 seconds
+  Import took 0.017843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Ground.png
+  artifactKey: Guid(35acb34319e7f224095467c974ffd213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Ground.png using Guid(35acb34319e7f224095467c974ffd213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc40414743ec340f33b466b55f9edfde') in 0.014561 seconds
+  Import took 0.016824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016489 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Ground_stone.png
+  artifactKey: Guid(d7dfed569b9ecf9449cda366bc8a4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Ground_stone.png using Guid(d7dfed569b9ecf9449cda366bc8a4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be60a31adb272b20d23229f8aa339f6') in 0.009790 seconds
+  Import took 0.012820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_0.png
+  artifactKey: Guid(50b54341495978843a6f85583ed4417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_0.png using Guid(50b54341495978843a6f85583ed4417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68b1c07827fcdb94ed430a9cfa2d19c') in 0.010761 seconds
+  Import took 0.013267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344655 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_0.png
+  artifactKey: Guid(6017f374382d64245a0a4aab668e6f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_0.png using Guid(6017f374382d64245a0a4aab668e6f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4bf347148237720a4a5fb03b11c05d') in 0.008639 seconds
+  Import took 0.011563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_1.png
+  artifactKey: Guid(3c2f1fb7e4b66e74191b7c328ada52d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_1.png using Guid(3c2f1fb7e4b66e74191b7c328ada52d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fb3b23e74f69f93d7eec3fbf0b1a67') in 0.007037 seconds
+  Import took 0.009781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038599 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_1.png
+  artifactKey: Guid(0f8fa14b3731cda4e947062e734d5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_1.png using Guid(0f8fa14b3731cda4e947062e734d5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db339d9950b725a0fa6f748ce827ffdc') in 0.009489 seconds
+  Import took 0.012271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_2.png
+  artifactKey: Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_2.png using Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4200b50be27e3243cf515e0f96968a15') in 0.007341 seconds
+  Import took 0.009869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.374934 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_2.png
+  artifactKey: Guid(1abfe0e165ca1e9428b455ffc9a2d9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_2.png using Guid(1abfe0e165ca1e9428b455ffc9a2d9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81696fa68e1d3fd16266fb1bf8f7abd') in 0.009099 seconds
+  Import took 0.011794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_3.png
+  artifactKey: Guid(373f9bf6b0841af4ebf26d25e4a3f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_3.png using Guid(373f9bf6b0841af4ebf26d25e4a3f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172461c8bc0a367eed19312b7223db0b') in 0.009195 seconds
+  Import took 0.011664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125799 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_3.png
+  artifactKey: Guid(c072b653e98a06e40857d76ca8c7eecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_3.png using Guid(c072b653e98a06e40857d76ca8c7eecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e868be8e4b362fc86027d75f7d94f0') in 0.009306 seconds
+  Import took 0.012096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_4.png
+  artifactKey: Guid(6fa5cf178eaaa5f42b820f636bb6e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_4.png using Guid(6fa5cf178eaaa5f42b820f636bb6e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dea2e5a7eec65029fe74ad9308b260') in 0.007689 seconds
+  Import took 0.010202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368627 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_4.png
+  artifactKey: Guid(b52d5033b68309943a2386c270a90f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_4.png using Guid(b52d5033b68309943a2386c270a90f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596a564ea7a0e632bde184c24b34490d') in 0.008887 seconds
+  Import took 0.011494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_5.png
+  artifactKey: Guid(acde5141d5f4f7a4188394bd52c4dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_5.png using Guid(acde5141d5f4f7a4188394bd52c4dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d80afbac49c8ef104e9f5f00e9731e') in 0.008083 seconds
+  Import took 0.010693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052082 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_5.png
+  artifactKey: Guid(a1ae041906217ae44a774d4ca139af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_5.png using Guid(a1ae041906217ae44a774d4ca139af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ed9776a3089a64818c6eb48db36432') in 0.007036 seconds
+  Import took 0.009846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_6.png
+  artifactKey: Guid(79b86f3419b87f3429164a956da8cfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_6.png using Guid(79b86f3419b87f3429164a956da8cfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780f96c2e2b8a847f5c9e6dd6df882df') in 0.008916 seconds
+  Import took 0.011413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046409 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_6.png
+  artifactKey: Guid(999434725cbc2be4eb54043b36efd4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_6.png using Guid(999434725cbc2be4eb54043b36efd4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1c715ef9408b7aa97097fea92572b7') in 0.010243 seconds
+  Import took 0.013267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_7.png
+  artifactKey: Guid(3ac02e7e783571c468f9c086d2384ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_7.png using Guid(3ac02e7e783571c468f9c086d2384ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3375f9200ecf574e336e455d5f9942f') in 0.007418 seconds
+  Import took 0.009941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.332792 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_7.png
+  artifactKey: Guid(70d0a1182b29d6347ac70374c3593bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 256px/LDR_LLL1_7.png using Guid(70d0a1182b29d6347ac70374c3593bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8395b4961b8c0c7543f63584dd05aea7') in 0.008245 seconds
+  Import took 0.010979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_8.png
+  artifactKey: Guid(c55042318a938344ab23cd7f09dd0076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_8.png using Guid(c55042318a938344ab23cd7f09dd0076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9abfe5781a8357d2e267eba26deccc') in 0.009067 seconds
+  Import took 0.011731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017825 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_9.png
+  artifactKey: Guid(71583cfd8899717428d5b1a95fa39cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_9.png using Guid(71583cfd8899717428d5b1a95fa39cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14aab3afb4aa70193d7e05654e6dc44c') in 0.008100 seconds
+  Import took 0.010669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_10.png
+  artifactKey: Guid(afe1e502240079342a0a980484b6da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_10.png using Guid(afe1e502240079342a0a980484b6da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c17d57feffd6044ee34c6da45c8d7a') in 0.007260 seconds
+  Import took 0.009833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.357912 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_11.png
+  artifactKey: Guid(771903fe7b4674445829e52e91cff019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_11.png using Guid(771903fe7b4674445829e52e91cff019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bca36b09b71c9b55e368c46db5ddb4') in 0.009048 seconds
+  Import took 0.012007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_12.png
+  artifactKey: Guid(980acadb960f8424c94307ec0e585b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_12.png using Guid(980acadb960f8424c94307ec0e585b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad050f39d5100d33b79b8de78bf4739d') in 0.008585 seconds
+  Import took 0.011057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022597 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_13.png
+  artifactKey: Guid(68613e6a221be1a4b9f31d7fa1c2d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_13.png using Guid(68613e6a221be1a4b9f31d7fa1c2d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0122ef1109e58f1b3f6f3a8cfca55627') in 0.008900 seconds
+  Import took 0.011922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_14.png
+  artifactKey: Guid(f6439b54b28f3884eb67579dec0b6f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_14.png using Guid(f6439b54b28f3884eb67579dec0b6f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d956c454f9d3dd62350cde504dde3ca') in 0.008582 seconds
+  Import took 0.011200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030899 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_15.png
+  artifactKey: Guid(2ee161d8945169243b5698fec114e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_15.png using Guid(2ee161d8945169243b5698fec114e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3520ef70187e74b3c81245d60ac3b1a2') in 0.014598 seconds
+  Import took 0.017462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_16.png
+  artifactKey: Guid(153f7d6dfbe713d4884df0f1e243ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_16.png using Guid(153f7d6dfbe713d4884df0f1e243ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95cfa804b318f4981f416411c69d724') in 0.007391 seconds
+  Import took 0.010056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038532 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_17.png
+  artifactKey: Guid(bf95b6fdc179b0e4f890c841406193fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_17.png using Guid(bf95b6fdc179b0e4f890c841406193fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5269cc8f98c4430e5fdb3081f6e5c93') in 0.008182 seconds
+  Import took 0.010976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_18.png
+  artifactKey: Guid(74aca53eb7273624baffc2bf5e5cc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_18.png using Guid(74aca53eb7273624baffc2bf5e5cc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba665ce54a8ed459dba8b8a21170e15f') in 0.006869 seconds
+  Import took 0.009398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366069 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_19.png
+  artifactKey: Guid(729a3ae164bcb3b4380459386adcf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_19.png using Guid(729a3ae164bcb3b4380459386adcf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091556a436af95a39bbc74411f1c5086') in 0.007785 seconds
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_20.png
+  artifactKey: Guid(6dda07f1420a968449cf4c6620c44d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_20.png using Guid(6dda07f1420a968449cf4c6620c44d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a075904fe7125d28f677879a78310205') in 0.007350 seconds
+  Import took 0.010061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023649 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_21.png
+  artifactKey: Guid(b7f000750830ddb4bbc80065b9314ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_21.png using Guid(b7f000750830ddb4bbc80065b9314ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c995d49409c246e231d5ae08bb521d46') in 0.015013 seconds
+  Import took 0.017934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_22.png
+  artifactKey: Guid(df01d03f056c6f445b4b8a0ae054207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_22.png using Guid(df01d03f056c6f445b4b8a0ae054207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b661f2514f21c6db88c63029bf27d537') in 0.008196 seconds
+  Import took 0.010837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_21.png
+  artifactKey: Guid(b7f000750830ddb4bbc80065b9314ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_21.png using Guid(b7f000750830ddb4bbc80065b9314ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c995d49409c246e231d5ae08bb521d46') in 0.006605 seconds
+  Import took 0.009106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030557 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_23.png
+  artifactKey: Guid(bfe953600e8fb1849a804ee08ace7b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_23.png using Guid(bfe953600e8fb1849a804ee08ace7b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4877bcd06fe4c788b5f1f0c2dfab47c4') in 0.008265 seconds
+  Import took 0.011131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_24.png
+  artifactKey: Guid(32c6a5f7143b86c44bd5cdee2ff3f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_24.png using Guid(32c6a5f7143b86c44bd5cdee2ff3f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9e2aca79e997a719f88d7008c39870') in 0.009228 seconds
+  Import took 0.011826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.250879 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_25.png
+  artifactKey: Guid(f4b8ab78b57749d4e96d36f6d8a395d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_25.png using Guid(f4b8ab78b57749d4e96d36f6d8a395d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb73c3da39d29e05293a096dbb3bfd79') in 0.008429 seconds
+  Import took 0.011215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_28.png
+  artifactKey: Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_28.png using Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81199e6f69c1e8dfd9b63a9e308dcf71') in 0.006797 seconds
+  Import took 0.009710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_27.png
+  artifactKey: Guid(bdd06fb88ef36ed4a85dd506352c2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_27.png using Guid(bdd06fb88ef36ed4a85dd506352c2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ee112f8bf98402a0bddba138339cc9') in 0.008309 seconds
+  Import took 0.011014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_26.png
+  artifactKey: Guid(09f6c01f98a3ded4daf1afc52a3c260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_26.png using Guid(09f6c01f98a3ded4daf1afc52a3c260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f39a3bf69e5cf663dda9fbe3802d1fb') in 0.009850 seconds
+  Import took 0.012386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_30.png
+  artifactKey: Guid(0fa10b21877c61b4db40ba5708815f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_30.png using Guid(0fa10b21877c61b4db40ba5708815f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c33416af3c00d10d39d1bde7b864bb2') in 0.009024 seconds
+  Import took 0.011756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_29.png
+  artifactKey: Guid(aa80dc44aa4fe4c43bb9d51d90cf2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_29.png using Guid(aa80dc44aa4fe4c43bb9d51d90cf2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6d5788164642b8e2794490a2c25939') in 0.008288 seconds
+  Import took 0.010762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002911 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_31.png
+  artifactKey: Guid(6b0a189df0bd4d5448eaefb4e673ace8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_31.png using Guid(6b0a189df0bd4d5448eaefb4e673ace8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7023b1a0231eec9d45f14cb7d3a83502') in 0.010264 seconds
+  Import took 0.013170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_32.png
+  artifactKey: Guid(87a5e40cc271ea648b583616f6ebe7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_32.png using Guid(87a5e40cc271ea648b583616f6ebe7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7061d18f7958b9e92be63de9c72f782') in 0.009510 seconds
+  Import took 0.011995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149818 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_33.png
+  artifactKey: Guid(b71bb466b71fd13449dd736f63caeb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_33.png using Guid(b71bb466b71fd13449dd736f63caeb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a3df72e9bd9363728e1a4eb3cae2f2') in 0.007961 seconds
+  Import took 0.010688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_34.png
+  artifactKey: Guid(319b8e66db3faa4438cf6982e9c89b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_34.png using Guid(319b8e66db3faa4438cf6982e9c89b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77a85db9427ad7efe4e7761e12b3cc9') in 0.009580 seconds
+  Import took 0.012255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_36.png
+  artifactKey: Guid(351e95d0e20a54849bd4ce5f9b498934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_36.png using Guid(351e95d0e20a54849bd4ce5f9b498934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b410512735735dbeaf9370a22914e0') in 0.007458 seconds
+  Import took 0.010198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_34.png
+  artifactKey: Guid(319b8e66db3faa4438cf6982e9c89b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_34.png using Guid(319b8e66db3faa4438cf6982e9c89b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77a85db9427ad7efe4e7761e12b3cc9') in 0.008855 seconds
+  Import took 0.011761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_33.png
+  artifactKey: Guid(b71bb466b71fd13449dd736f63caeb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_33.png using Guid(b71bb466b71fd13449dd736f63caeb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a3df72e9bd9363728e1a4eb3cae2f2') in 0.007369 seconds
+  Import took 0.009646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_35.png
+  artifactKey: Guid(0a79c155edf9b2d429d4736abee5acdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_35.png using Guid(0a79c155edf9b2d429d4736abee5acdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecd30160c2ae008eba17acc1d8e1f6b') in 0.009524 seconds
+  Import took 0.012681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186488 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_37.png
+  artifactKey: Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_37.png using Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af276929defa0af9bc82c01618d947b') in 0.008029 seconds
+  Import took 0.010899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_38.png
+  artifactKey: Guid(9660a4ca1ca8425408ac25c641932977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_38.png using Guid(9660a4ca1ca8425408ac25c641932977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80b847935af41c0d3512f387fbde956') in 0.008054 seconds
+  Import took 0.010461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_39.png
+  artifactKey: Guid(547dbd5f858c74047ba3f213e4408307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_39.png using Guid(547dbd5f858c74047ba3f213e4408307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752cbd328ac467bf07381183a704107c') in 0.007882 seconds
+  Import took 0.010645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_38.png
+  artifactKey: Guid(9660a4ca1ca8425408ac25c641932977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_38.png using Guid(9660a4ca1ca8425408ac25c641932977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80b847935af41c0d3512f387fbde956') in 0.006876 seconds
+  Import took 0.009513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_40.png
+  artifactKey: Guid(1a9ce5640cde5934aae0022f020464a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_40.png using Guid(1a9ce5640cde5934aae0022f020464a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9ce003b287c556490522b219974fcb') in 0.007104 seconds
+  Import took 0.009870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_42.png
+  artifactKey: Guid(b266511438fae724f9d3ce6bd26583e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_42.png using Guid(b266511438fae724f9d3ce6bd26583e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92740999e45db1b310c66fffa2121b39') in 0.009863 seconds
+  Import took 0.012762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_41.png
+  artifactKey: Guid(cd9006dc442cc244e89b3f492384d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_41.png using Guid(cd9006dc442cc244e89b3f492384d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6291a49dfb294b8e91ee980aa51d10') in 0.008198 seconds
+  Import took 0.010694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_37.png
+  artifactKey: Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_37.png using Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af276929defa0af9bc82c01618d947b') in 0.007641 seconds
+  Import took 0.010043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168601 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_43.png
+  artifactKey: Guid(71bc1b6b66e8b784b972199b7e90204e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_43.png using Guid(71bc1b6b66e8b784b972199b7e90204e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c349a5eb441c47c56f9cdebc61659529') in 0.007998 seconds
+  Import took 0.010723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_44.png
+  artifactKey: Guid(15e54aa23a938444389469d53765d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_44.png using Guid(15e54aa23a938444389469d53765d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd87573e3f0d8c369155beb223922a30') in 0.007994 seconds
+  Import took 0.010603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008482 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_45.png
+  artifactKey: Guid(b9960364038cbfa4aa49d7b2032d3110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_45.png using Guid(b9960364038cbfa4aa49d7b2032d3110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9daa65e52cda6528c1136b4244bf6f') in 0.008777 seconds
+  Import took 0.012001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_46.png
+  artifactKey: Guid(8ecbbcae4cc747a4abbc4adce795d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_46.png using Guid(8ecbbcae4cc747a4abbc4adce795d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a4e0894da4b554809f9f36353b77e6') in 0.009052 seconds
+  Import took 0.011954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001527 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_47.png
+  artifactKey: Guid(1378a33cdd085d64c9da863d2484ff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_47.png using Guid(1378a33cdd085d64c9da863d2484ff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a82d1750546968e3e8cf21eb45c8c7') in 0.009612 seconds
+  Import took 0.012209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_48.png
+  artifactKey: Guid(aff59c63d25d43f4c938f248837c30fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_48.png using Guid(aff59c63d25d43f4c938f248837c30fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1973741b87d78106ef79eaea199c1832') in 0.008300 seconds
+  Import took 0.011204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_50.png
+  artifactKey: Guid(d8c290e38ff0425409d0ae6a98c95e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_50.png using Guid(d8c290e38ff0425409d0ae6a98c95e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bc1a0dad2dcbb133c2733c11d8dd68') in 0.008709 seconds
+  Import took 0.011202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_49.png
+  artifactKey: Guid(3f7c3687170b90e4a8d2ee6b142670f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_49.png using Guid(3f7c3687170b90e4a8d2ee6b142670f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e130aa47268b722e9b573d28a0ff552') in 0.007481 seconds
+  Import took 0.010252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.222703 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_51.png
+  artifactKey: Guid(d5a51525b27e3ee4aadbeb39cbcf0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_51.png using Guid(d5a51525b27e3ee4aadbeb39cbcf0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f711908ebd6dd65082404913384915') in 0.009512 seconds
+  Import took 0.012333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_52.png
+  artifactKey: Guid(d2e8e90fac2e6a341a38e1c3963c218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_52.png using Guid(d2e8e90fac2e6a341a38e1c3963c218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b186d464e445c06d94380927669b58') in 0.008468 seconds
+  Import took 0.011393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_54.png
+  artifactKey: Guid(936dea238abb0864ab3985a995e16a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_54.png using Guid(936dea238abb0864ab3985a995e16a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7eb9fcbcea49e255a1d37b2023dc57f') in 0.009944 seconds
+  Import took 0.012518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_53.png
+  artifactKey: Guid(c94b57b5a32a22d43ade66e09f6a4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_53.png using Guid(c94b57b5a32a22d43ade66e09f6a4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6cb81a82a120aa2f63410e12129628') in 0.009220 seconds
+  Import took 0.012013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_57.png
+  artifactKey: Guid(e138166e7a7c70f49943be7edda35d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_57.png using Guid(e138166e7a7c70f49943be7edda35d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574547ac675f3a747e166f2467fc632c') in 0.009817 seconds
+  Import took 0.012178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_51.png
+  artifactKey: Guid(d5a51525b27e3ee4aadbeb39cbcf0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_51.png using Guid(d5a51525b27e3ee4aadbeb39cbcf0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f711908ebd6dd65082404913384915') in 0.008927 seconds
+  Import took 0.012054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_56.png
+  artifactKey: Guid(70f23eaf7d8ae9147aa542d20e93733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_56.png using Guid(70f23eaf7d8ae9147aa542d20e93733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e67b813bb2b09ebdd185386175537d') in 0.008008 seconds
+  Import took 0.010416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_55.png
+  artifactKey: Guid(5e542d0126a2c7848b66bffc428905fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_55.png using Guid(5e542d0126a2c7848b66bffc428905fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953eb775c8ef3e792b4a409b7fc3fbfa') in 0.008448 seconds
+  Import took 0.011189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_58.png
+  artifactKey: Guid(85a45a6d8b2ffb84987d2b028ecfb220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_58.png using Guid(85a45a6d8b2ffb84987d2b028ecfb220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7695e90a703078d014f6d35052a75285') in 0.008038 seconds
+  Import took 0.010653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197076 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_59.png
+  artifactKey: Guid(d96974690c77f50489eb60ec84bd8dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_59.png using Guid(d96974690c77f50489eb60ec84bd8dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf1648300d02cd392f5998bf1da9597') in 0.009032 seconds
+  Import took 0.011880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_60.png
+  artifactKey: Guid(404fa8def46b1c447817e1ebdaa7144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_60.png using Guid(404fa8def46b1c447817e1ebdaa7144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f8f85a0bec7e999252a34eca1fc8b5') in 0.009193 seconds
+  Import took 0.012001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_59.png
+  artifactKey: Guid(d96974690c77f50489eb60ec84bd8dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_59.png using Guid(d96974690c77f50489eb60ec84bd8dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf1648300d02cd392f5998bf1da9597') in 0.010515 seconds
+  Import took 0.013148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_62.png
+  artifactKey: Guid(a03c400b0e3959f428ee99dfc6cfc263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_62.png using Guid(a03c400b0e3959f428ee99dfc6cfc263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce683d855022be3123a7a63ff33eae3') in 0.008788 seconds
+  Import took 0.011527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_63.png
+  artifactKey: Guid(4a11d65ce13d5f542a0ff136cc2f3fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_63.png using Guid(4a11d65ce13d5f542a0ff136cc2f3fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74b43b28bff8c4a603491d847e53520') in 0.008973 seconds
+  Import took 0.011684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt00.png
+  artifactKey: Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt00.png using Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd894bf7518d13f204c7cdd7f38bd9e8f') in 0.010777 seconds
+  Import took 0.013585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_61.png
+  artifactKey: Guid(119591e0bb084e848835d237546b3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Blue Noise 64px/LDR_LLL1_61.png using Guid(119591e0bb084e848835d237546b3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d4813e4908578b8279583234f1fd1f') in 0.008796 seconds
+  Import took 0.011637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201628 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt01.png
+  artifactKey: Guid(3884f7a2d04ffe8409ad9200b275896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt01.png using Guid(3884f7a2d04ffe8409ad9200b275896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4788996b0ecfbb1d4b841b12e9e62020') in 0.013885 seconds
+  Import took 0.016643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt02.png
+  artifactKey: Guid(a2960ffde020f27409e070d92fb2e00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt02.png using Guid(a2960ffde020f27409e070d92fb2e00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1af9d3dd8247e0c508a2af516ef28e9') in 0.011868 seconds
+  Import took 0.014542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt01.png
+  artifactKey: Guid(3884f7a2d04ffe8409ad9200b275896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt01.png using Guid(3884f7a2d04ffe8409ad9200b275896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4788996b0ecfbb1d4b841b12e9e62020') in 0.011011 seconds
+  Import took 0.013635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt03.png
+  artifactKey: Guid(7a051dbda2d7bc447bee412427cd311e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Lens Dirt/LensDirt03.png using Guid(7a051dbda2d7bc447bee412427cd311e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1dc9536e636eb84c239dbe3c7b34ee') in 0.011961 seconds
+  Import took 0.014504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf95ca6761cc54e2ef53295e1381971') in 0.028045 seconds
+  Import took 0.030873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms01_d.png
+  artifactKey: Guid(f71f3fcc2260b7345b65d83733b87bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms01_d.png using Guid(f71f3fcc2260b7345b65d83733b87bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c01d9160389e4d05b28e1a943e9129') in 0.009713 seconds
+  Import took 0.012338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e93136860a214abc0faa3304291c7e') in 0.033262 seconds
+  Import took 0.036248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181693 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms01_e.png
+  artifactKey: Guid(3706cb2257a06354782130d31c45964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms01_e.png using Guid(3706cb2257a06354782130d31c45964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9dbb63aa3a488a7409c2f1e3433ffb') in 0.009350 seconds
+  Import took 0.011815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms02_d.png
+  artifactKey: Guid(c155a97b44bf4d849b1373af04036419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms02_d.png using Guid(c155a97b44bf4d849b1373af04036419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49dd654f83db13ab2b335372c8af18a') in 0.010224 seconds
+  Import took 0.012988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms03_d.png
+  artifactKey: Guid(0b54492692c3a834e835e32a922982fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms03_d.png using Guid(0b54492692c3a834e835e32a922982fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad89cb203839ef69f5d3c2568ce066b') in 0.009341 seconds
+  Import took 0.012292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms02_e.png
+  artifactKey: Guid(5c3eb00a3ecf5df438df7a903b857614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms02_e.png using Guid(5c3eb00a3ecf5df438df7a903b857614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfa686261174eca200b43e1732b2fac') in 0.008499 seconds
+  Import took 0.010739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036076 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/LUTs/NeutralLdrLut.png
+  artifactKey: Guid(4f98e9c96c8a48541b5eb704e92d99b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/LUTs/NeutralLdrLut.png using Guid(4f98e9c96c8a48541b5eb704e92d99b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fff5e9b5d6110689dfeaf80765bec5e') in 0.008331 seconds
+  Import took 0.011296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Oak_bark_d.png
+  artifactKey: Guid(afef7b2a1fb9b9a4097eaceb1ae1eb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Oak_bark_d.png using Guid(afef7b2a1fb9b9a4097eaceb1ae1eb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a734d30df64baab3aebd91d71fbe91fb') in 0.010412 seconds
+  Import took 0.013255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.782249 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Oak_branch_d.png
+  artifactKey: Guid(b1f7d094462580e4b9518589f401669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Oak_branch_d.png using Guid(b1f7d094462580e4b9518589f401669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ed566e8663b4b688c12072375d4e1b') in 0.028279 seconds
+  Import took 0.031085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/CityVoxelPack/Assets/pavements/Textures/pavement1.png
+  artifactKey: Guid(10b11cb5b128bdc46a10576f851cb474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityVoxelPack/Assets/pavements/Textures/pavement1.png using Guid(10b11cb5b128bdc46a10576f851cb474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abff60b8f78a8d76aefe61419d64efea') in 0.014953 seconds
+  Import took 0.017925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018573 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Gizmos/PostProcessLayer.png
+  artifactKey: Guid(5f51e0b22aa8cb84b9f422576ce87ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Gizmos/PostProcessLayer.png using Guid(5f51e0b22aa8cb84b9f422576ce87ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff96535639f89e36dad6d9bc07b356b4') in 0.010575 seconds
+  Import took 0.013278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Albedo.png
+  artifactKey: Guid(b90de2f130cc1dd4683082ffe5c9c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Albedo.png using Guid(b90de2f130cc1dd4683082ffe5c9c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf6d2427ca9c07e59fc50faa1cdd196') in 0.009122 seconds
+  Import took 0.011895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037218 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Emission.png
+  artifactKey: Guid(4cac81b5211748e4e982bff8014df8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Emission.png using Guid(4cac81b5211748e4e982bff8014df8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1428485e4458474f8a7a836f1ce083ae') in 0.009865 seconds
+  Import took 0.012696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp01.png
+  artifactKey: Guid(2efaa2ddf7595af4987d403f6a48a8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp01.png using Guid(2efaa2ddf7595af4987d403f6a48a8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889417818932f30d472e0f370cd13964') in 0.008369 seconds
+  Import took 0.010956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221221 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp02.png
+  artifactKey: Guid(33b9f1f8cdf36764ba2055c533bf840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp02.png using Guid(33b9f1f8cdf36764ba2055c533bf840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c94881ba9ea8e87ed0c7908fdb5ed2e') in 0.008836 seconds
+  Import took 0.011646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp03.png
+  artifactKey: Guid(0a7522a83361cf046839bedbd9c386c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp03.png using Guid(0a7522a83361cf046839bedbd9c386c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995ae99e7bd71613f455ee44f548c6f3') in 0.008137 seconds
+  Import took 0.011015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277397 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp04.png
+  artifactKey: Guid(f02537be58055fb43945c02413c7d8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp04.png using Guid(f02537be58055fb43945c02413c7d8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e22b6ee9da5bbaaa8b71d8d0ddebe3') in 0.008519 seconds
+  Import took 0.011211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp05.png
+  artifactKey: Guid(abb7aa6a3dcf95847a943519b29ec1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp05.png using Guid(abb7aa6a3dcf95847a943519b29ec1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f31d664a1362e661d75d61349ba0a6a') in 0.008130 seconds
+  Import took 0.010928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027462 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp06.png
+  artifactKey: Guid(2ae4ee31155acf543a798db0514b3cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp06.png using Guid(2ae4ee31155acf543a798db0514b3cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124ae78391a3b1e55fd1cda0a1ba2ed0') in 0.008353 seconds
+  Import took 0.011101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp07.png
+  artifactKey: Guid(c101f99da83d80d4db8cd526fb7aca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp07.png using Guid(c101f99da83d80d4db8cd526fb7aca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bccd8fcb0c2b1231aeea93f606198d') in 0.007588 seconds
+  Import took 0.010249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.236954 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp07v2.png
+  artifactKey: Guid(670ad9afb5c51b542951b338b085f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp07v2.png using Guid(670ad9afb5c51b542951b338b085f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5708c098bb1550902087a4dee487d159') in 0.008863 seconds
+  Import took 0.011638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp08.png
+  artifactKey: Guid(c342b9d016cc18e40a814439d5ae360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/Ramps/Ramp08.png using Guid(c342b9d016cc18e40a814439d5ae360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb7ed52ffe12d397a717a2680d48e0d') in 0.006970 seconds
+  Import took 0.009717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001663 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-0.exr
+  artifactKey: Guid(01002d6e01ad23a41b427f8dda71563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-0.exr using Guid(01002d6e01ad23a41b427f8dda71563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25209e82288995d0a8f414a46d450cc4') in 0.050162 seconds
+  Import took 0.052955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-0.exr
+  artifactKey: Guid(17dcd49120358e940a0b16890750e0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-0.exr using Guid(17dcd49120358e940a0b16890750e0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc7a7cb19e96cfadb94c1f2ae573d7a') in 0.008522 seconds
+  Import took 0.011425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003845 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-1.exr
+  artifactKey: Guid(d409b6aa76a6f2640bd570a73ceee5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-1.exr using Guid(d409b6aa76a6f2640bd570a73ceee5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdf7b5f8dafa94ea4d7e2f4d3147bbe') in 0.013395 seconds
+  Import took 0.016085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-1.exr
+  artifactKey: Guid(a70a85eb4fc7c5043b6b637cb1fa62e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-1.exr using Guid(a70a85eb4fc7c5043b6b637cb1fa62e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84232912f94e470a0c9cbc07c292fa46') in 0.008653 seconds
+  Import took 0.011271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177179 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Road.png
+  artifactKey: Guid(a1a5cbb801fee744582b0831db41102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Road.png using Guid(a1a5cbb801fee744582b0831db41102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addbf7e52d60794ac444878de0f73e58') in 0.009385 seconds
+  Import took 0.012577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Road_grass.png
+  artifactKey: Guid(324e4bf54dd10b044962116825d31249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Road_grass.png using Guid(324e4bf54dd10b044962116825d31249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f687b2a709c09c399edb051495ec8fb4') in 0.015349 seconds
+  Import took 0.017616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Road.png
+  artifactKey: Guid(a1a5cbb801fee744582b0831db41102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Road.png using Guid(a1a5cbb801fee744582b0831db41102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addbf7e52d60794ac444878de0f73e58') in 0.008812 seconds
+  Import took 0.011419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011455 seconds.
+  path: Assets/CityVoxelPack/Assets/roads/Textures/roads.png
+  artifactKey: Guid(48bdd92bcb84f6442a9fe6d7e347f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityVoxelPack/Assets/roads/Textures/roads.png using Guid(48bdd92bcb84f6442a9fe6d7e347f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f045e84258f7772c6daf090d383d0da') in 0.012606 seconds
+  Import took 0.015288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/CityVoxelPack/Assets/roads/Textures/roadsBis.png
+  artifactKey: Guid(e521f4c46d1d0534f903a5d290410379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityVoxelPack/Assets/roads/Textures/roadsBis.png using Guid(e521f4c46d1d0534f903a5d290410379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271041a8ae1fdb30f0eab60631273301') in 0.010577 seconds
+  Import took 0.013360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Skybox_DAY.png
+  artifactKey: Guid(d5c888a4a87c0994582eb587ae6796e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Skybox_DAY.png using Guid(d5c888a4a87c0994582eb587ae6796e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a763f77c01144db5e318d7722c545a') in 0.013551 seconds
+  Import took 0.015863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/SMAA/SearchTex.tga
+  artifactKey: Guid(d99701099481a2f489610e977df6dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/SMAA/SearchTex.tga using Guid(d99701099481a2f489610e977df6dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553c64b91da9cfd67140f542721e741a') in 0.008441 seconds
+  Import took 0.011340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170359 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Skybox_NIGHT.png
+  artifactKey: Guid(6e93259f691fa6e448b229dada205ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Skybox_NIGHT.png using Guid(6e93259f691fa6e448b229dada205ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cdd38644fc90325f695c4471eb652d') in 0.014273 seconds
+  Import took 0.016887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_BlueRed.tga
+  artifactKey: Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_BlueRed.tga using Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da5778e6b4684c38cd3d05ac2dcbb95') in 0.008092 seconds
+  Import took 0.010719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Skybox_NIGHT.png
+  artifactKey: Guid(6e93259f691fa6e448b229dada205ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Skybox_NIGHT.png using Guid(6e93259f691fa6e448b229dada205ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cdd38644fc90325f695c4471eb652d') in 0.011184 seconds
+  Import took 0.013747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010051 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga
+  artifactKey: Guid(4a8f054acfbd08043a931cd22760758d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga using Guid(4a8f054acfbd08043a931cd22760758d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23db9289986b224ea9a9a7f40fb956de') in 0.007525 seconds
+  Import took 0.010617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga
+  artifactKey: Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga using Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000700a627b21360d9ef325c34dd3d21') in 0.008248 seconds
+  Import took 0.011033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.161984 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_RedBlue.tga
+  artifactKey: Guid(ff5f3317371838d4fa16ac6c2acf2040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/Spectral LUTs/SpectralLut_RedBlue.tga using Guid(ff5f3317371838d4fa16ac6c2acf2040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f858eca07482a8020445c083712fef62') in 0.008346 seconds
+  Import took 0.011133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.785991 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Stone.png
+  artifactKey: Guid(93c7a8803499d6a4c851f05c564b922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Stone.png using Guid(93c7a8803499d6a4c851f05c564b922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa63015d4e45f8a5197333eb70d0b7cf') in 0.020771 seconds
+  Import took 0.023378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Stone_rotated.png
+  artifactKey: Guid(aaa0e87b1e0a31e45840e875cf3d7a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Stone_rotated.png using Guid(aaa0e87b1e0a31e45840e875cf3d7a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035d1c77c1f8a2aff9f5c634970d0288') in 0.012958 seconds
+  Import took 0.015445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Stone.png
+  artifactKey: Guid(93c7a8803499d6a4c851f05c564b922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Stone.png using Guid(93c7a8803499d6a4c851f05c564b922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa63015d4e45f8a5197333eb70d0b7cf') in 0.009683 seconds
+  Import took 0.012566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.515840 seconds.
+  path: Assets/Materials/CaveWall.mat
+  artifactKey: Guid(00797adf3c624e747a72d274fb647185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CaveWall.mat using Guid(00797adf3c624e747a72d274fb647185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e07d83333518b7a4c7c9310088c84bc') in 0.009784 seconds
+  Import took 0.012502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.687024 seconds.
+  path: Assets/Materials/CaveFloor.mat
+  artifactKey: Guid(7db746049cc3b1149969dae4217064cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CaveFloor.mat using Guid(7db746049cc3b1149969dae4217064cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318a1a367998a7c8e74c1cdbcb88e5db') in 0.009317 seconds
+  Import took 0.011986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Materials/CaveWall.mat
+  artifactKey: Guid(00797adf3c624e747a72d274fb647185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CaveWall.mat using Guid(00797adf3c624e747a72d274fb647185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff744ae33e8bb0bbef728c3a250890f') in 0.008949 seconds
+  Import took 0.011729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.176677 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Scenes
+  artifactKey: Guid(6918244c62cfd184ab4412a0e687f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Scenes using Guid(6918244c62cfd184ab4412a0e687f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6029529d06960be275fff9515f602ca') in 0.007002 seconds
+  Import took 0.009602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 342.091341 seconds.
+  path: Assets/Scenes/City Forest.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/City Forest.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f3ae7915c0ff8462618ceb5da2835') in 0.007033 seconds
+  Import took 0.009884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.333033 seconds.
+  path: Assets/SkythianCat/Glowing_Forest
+  artifactKey: Guid(15e4d63b294ef7744b60940d46ee8a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest using Guid(15e4d63b294ef7744b60940d46ee8a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975b9475ddf73ed253f506607e104314') in 0.007332 seconds
+  Import took 0.010168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.864273 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes
+  artifactKey: Guid(4d22d6c88bc675442ab9a2a60d10f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes using Guid(4d22d6c88bc675442ab9a2a60d10f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a152f755a20052d40a05319c347ccf1') in 0.005969 seconds
+  Import took 0.008561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.753674 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants
+  artifactKey: Guid(a51bac0bcca88884da995b92282fcb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants using Guid(a51bac0bcca88884da995b92282fcb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813a4e918aee8a79da62125e017acc63') in 0.006733 seconds
+  Import took 0.009349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107829 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Birch.prefab
+  artifactKey: Guid(a35ad1ca558615943a3a42547e7bef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Birch.prefab using Guid(a35ad1ca558615943a3a42547e7bef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4562a97478819966cd6b98089d19fb') in 0.011402 seconds
+  Import took 0.014261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Fir.prefab
+  artifactKey: Guid(681caea7d7db32e468aa5bc7e60da2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Fir.prefab using Guid(681caea7d7db32e468aa5bc7e60da2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf3f4347602decb969a52ed923a11de') in 0.010315 seconds
+  Import took 0.012684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Bush01.prefab
+  artifactKey: Guid(4c9eeb66e4e34be43b04b66ff0e5bb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Bush01.prefab using Guid(4c9eeb66e4e34be43b04b66ff0e5bb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5f81b6d4b577b8fee086974de5d603') in 0.010043 seconds
+  Import took 0.013047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Mushrooms01.prefab
+  artifactKey: Guid(946d6139259d35444ae7eafbdf8f87fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Mushrooms01.prefab using Guid(946d6139259d35444ae7eafbdf8f87fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ec22da10e03449a0036386a521e684') in 0.012631 seconds
+  Import took 0.015569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Oak.prefab
+  artifactKey: Guid(38693110c240171409a05b6a2347b900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Oak.prefab using Guid(38693110c240171409a05b6a2347b900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08d801855a1b7bd7d14bac2cdd4e725') in 0.013287 seconds
+  Import took 0.016377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Bush02.prefab
+  artifactKey: Guid(5279a4d472407d847a1cf22b68805c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Bush02.prefab using Guid(5279a4d472407d847a1cf22b68805c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ede4930aa3bd6e6ec164c103a4a126') in 0.010369 seconds
+  Import took 0.013300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Mushrooms02.prefab
+  artifactKey: Guid(12c49111266b30b4d855c0c5b77eb3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Mushrooms02.prefab using Guid(12c49111266b30b4d855c0c5b77eb3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3b90bef22e76589313a5505833a6a0') in 0.012279 seconds
+  Import took 0.015030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Mushrooms03.prefab
+  artifactKey: Guid(e6ba9b16af0144c428401df4428fde4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Mushrooms03.prefab using Guid(e6ba9b16af0144c428401df4428fde4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf78fd801def57922c11510e1ad1ac88') in 0.009055 seconds
+  Import took 0.011592 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000684 seconds.
+Registered in 0.000651 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.643 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2129.
+Total: 2.575900 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.732700 ms  DeleteObjects: 0.627400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 846.877268 seconds.
+  path: Assets/Materials/Dark Hill Green.mat
+  artifactKey: Guid(9a99ebe93ab81c2469be36c70d6a455b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Dark Hill Green.mat using Guid(9a99ebe93ab81c2469be36c70d6a455b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f378d2ce194463a2fb54a76cb3446be') in 0.041104 seconds
+  Import took 0.044113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.939912 seconds.
+  path: Assets/Materials/Dark Hill Green.mat
+  artifactKey: Guid(9a99ebe93ab81c2469be36c70d6a455b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Dark Hill Green.mat using Guid(9a99ebe93ab81c2469be36c70d6a455b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2492dc0ae8bb4ecb3cb44f3a4ff16826') in 0.010195 seconds
+  Import took 0.013006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 298.688664 seconds.
+  path: Assets/Materials/Hill Green Dark.mat
+  artifactKey: Guid(4f8a09bb188693346b0a235269b6e54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Hill Green Dark.mat using Guid(4f8a09bb188693346b0a235269b6e54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8bac38b3ffb107068e849ce5d1f993') in 0.010707 seconds
+  Import took 0.013522 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000649 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Unloading 1587 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 91.4 MB.
 
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2132.
+Total: 2.862600 ms (FindLiveObjects: 0.185200 ms CreateObjectMapping: 0.037800 ms MarkObjects: 2.005500 ms  DeleteObjects: 0.633000 ms)
 
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1467 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.8 MB.
-System memory in use after: 82.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1981.
-Total: 2.004100 ms (FindLiveObjects: 0.175100 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.699900 ms  DeleteObjects: 0.095000 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 170.199181 seconds.
+  path: Assets/Materials/Hill Green Dark.mat
+  artifactKey: Guid(4f8a09bb188693346b0a235269b6e54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Hill Green Dark.mat using Guid(4f8a09bb188693346b0a235269b6e54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546c7eaf6bd94c5c0444e13476fe7e83') in 0.039372 seconds
+  Import took 0.042392 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000662 seconds.
+Registered in 0.000621 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -149,327 +2110,103 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
+- Completed reload, in  0.637 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1587 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2135.
+Total: 2.878600 ms (FindLiveObjects: 0.184900 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.987000 ms  DeleteObjects: 0.668400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2773.355032 seconds.
+  path: Assets/Materials/Sewer Pipe.mat
+  artifactKey: Guid(6b12efed957732d49969f9f67b4e8c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sewer Pipe.mat using Guid(6b12efed957732d49969f9f67b4e8c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e7f4c9c39188e5e20e19f749e58ab0') in 0.041496 seconds
+  Import took 0.044484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.359780 seconds.
+  path: Assets/Materials/Sewer Pipe.mat
+  artifactKey: Guid(6b12efed957732d49969f9f67b4e8c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sewer Pipe.mat using Guid(6b12efed957732d49969f9f67b4e8c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5a284299072ee7159c131f623d36df') in 0.009852 seconds
+  Import took 0.012544 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1467 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.6 MB.
-System memory in use after: 83.7 MB.
+Unloading 1587 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 91.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1983.
-Total: 2.427900 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.037700 ms MarkObjects: 2.048100 ms  DeleteObjects: 0.117200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 165.597731 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(c2bb60087ad53274185d73003eed7971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(c2bb60087ad53274185d73003eed7971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12de547710df8f60edf356f76cfd2da6') in 0.006269 seconds
-  Import took 0.011219 seconds .
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2138.
+Total: 3.051000 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.051400 ms MarkObjects: 1.991800 ms  DeleteObjects: 0.734900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.786530 seconds.
-  path: Assets/Scripts/PlayerSetBack.cs
-  artifactKey: Guid(ec1ea17069cb7b74ab9bb5171d150d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerSetBack.cs using Guid(ec1ea17069cb7b74ab9bb5171d150d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8f0044847d525d96fe254eab7a340d') in 0.005679 seconds
-  Import took 0.010339 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000731 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.652 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 2.426300 ms (FindLiveObjects: 0.290200 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.974300 ms  DeleteObjects: 0.116700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000696 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1988.
-Total: 2.275200 ms (FindLiveObjects: 0.174400 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.956500 ms  DeleteObjects: 0.109400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000707 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.641 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1990.
-Total: 2.321500 ms (FindLiveObjects: 0.183600 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.979100 ms  DeleteObjects: 0.121500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000607 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.619 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1992.
-Total: 2.282500 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.946400 ms  DeleteObjects: 0.107900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000683 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.638 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1994.
-Total: 2.271400 ms (FindLiveObjects: 0.189000 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.934700 ms  DeleteObjects: 0.111600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000664 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.644 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1996.
-Total: 2.316600 ms (FindLiveObjects: 0.244800 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.920200 ms  DeleteObjects: 0.105300 ms)
+  Time since last request: 3531.149100 seconds.
+  path: Assets/Scenes/Sewer Mine.unity
+  artifactKey: Guid(f39112a56fbb3be4b9a7cb8da3a13a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sewer Mine.unity using Guid(f39112a56fbb3be4b9a7cb8da3a13a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434dd04655f5de4ac31a4a42d92c8540') in 0.010839 seconds
+  Import took 0.013834 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 768.057613 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9195ff08fade88f4824d64613c3439bd') in 0.010763 seconds
-  Import took 0.015146 seconds .
+  Time since last request: 780.046550 seconds.
+  path: Assets/Materials/Iron Rails.mat
+  artifactKey: Guid(0c4e9d13420d47a4ca7c9ba32982b2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Iron Rails.mat using Guid(0c4e9d13420d47a4ca7c9ba32982b2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8fb72a9f21edf80f7a5cb3ae54d26f') in 0.041629 seconds
+  Import took 0.044498 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000692 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.627 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.4 MB.
-System memory in use after: 83.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1998.
-Total: 2.324800 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.985300 ms  DeleteObjects: 0.113800 ms)
+Received Import Request.
+  Time since last request: 83.679208 seconds.
+  path: Assets/Materials/Wooden Plans.mat
+  artifactKey: Guid(097dd88ab07dad144a61514bb554e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wooden Plans.mat using Guid(097dd88ab07dad144a61514bb554e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0f43df301bf0d5cdc4b4bd980bac9f') in 0.012279 seconds
+  Import took 0.015103 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000763 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.623 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2000.
-Total: 2.282000 ms (FindLiveObjects: 0.197300 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.936400 ms  DeleteObjects: 0.109200 ms)
+Received Import Request.
+  Time since last request: 104.561384 seconds.
+  path: Assets/Prefabs/Mine Rails.prefab
+  artifactKey: Guid(8094ec045355cb243b30f5c61c6e26f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mine Rails.prefab using Guid(8094ec045355cb243b30f5c61c6e26f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66979d218960c051f39be2bd2b127577') in 0.017059 seconds
+  Import took 0.019813 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000627 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.629 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.6 MB.
-System memory in use after: 83.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2002.
-Total: 2.236700 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.048300 ms MarkObjects: 1.809900 ms  DeleteObjects: 0.109300 ms)
+Received Import Request.
+  Time since last request: 0.001748 seconds.
+  path: Assets/Prefabs/Mine Rails.prefab
+  artifactKey: Guid(8094ec045355cb243b30f5c61c6e26f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mine Rails.prefab using Guid(8094ec045355cb243b30f5c61c6e26f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66979d218960c051f39be2bd2b127577') in 0.003871 seconds
+  Import took 0.006226 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

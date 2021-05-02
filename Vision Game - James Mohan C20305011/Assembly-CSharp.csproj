@@ -761,13 +761,13 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{d9b16d86-e576-7566-2c64-45a5591896c0}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
       <Project>{0e4450ca-745f-1f1a-ab02-ec46704cf8e2}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{d9b16d86-e576-7566-2c64-45a5591896c0}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
