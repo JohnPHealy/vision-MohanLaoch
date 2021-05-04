@@ -27,7 +27,7 @@ public class IdealOn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UsesText.text = "Uses Remaining:" + Uses.ToString("0");
+        UsesText.text = "Uses Remaining: " + Uses.ToString("0");
         
         if (Input.GetKey(KeyCode.V) && Uses >0)
         {
