@@ -12,21 +12,20 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorToolbar.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSetBack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpReset.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevelOnTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IdealOff.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpDetect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpReset.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSetBack.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSetBack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevelOnTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IdealOn.cs" />
     </changedPaths>
   </component>
@@ -80,6 +79,7 @@
       <workItem from="1619804635161" duration="1504000" />
       <workItem from="1620059914068" duration="3374000" />
       <workItem from="1620150315800" duration="1774000" />
+      <workItem from="1620207902374" duration="8328000" />
     </task>
     <servers />
   </component>

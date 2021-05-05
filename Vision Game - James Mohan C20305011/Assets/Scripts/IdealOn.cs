@@ -16,7 +16,8 @@ public class IdealOn : MonoBehaviour
     public int Uses = 3;
 
     public TextMeshProUGUI UsesText;
-    
+
+    public bool InsideBuildingTest;
     
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,7 @@ public class IdealOn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UsesText.text = "Uses Remaining: " + Uses.ToString("0");
+        UsesText.text = "V to use, R to reset\n" + "Uses Remaining: " + Uses.ToString("0");
         
         if (Input.GetKey(KeyCode.V) && Uses >0)
         {
@@ -62,7 +63,15 @@ public class IdealOn : MonoBehaviour
             IsIdeal = true;
             yield return new WaitForSeconds(Timer);
             IsIdeal = false;
+            StartCoroutine(DetectCount());
         }
+    }
+
+    IEnumerator DetectCount()
+    {
+        InsideBuildingTest = true;
+        yield return new WaitForSeconds(1);
+        InsideBuildingTest = false;
     }
 
 }

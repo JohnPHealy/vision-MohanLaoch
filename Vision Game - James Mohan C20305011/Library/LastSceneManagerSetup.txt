@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/City Forest.unity
+- path: Assets/Scenes/Sewer Mine.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

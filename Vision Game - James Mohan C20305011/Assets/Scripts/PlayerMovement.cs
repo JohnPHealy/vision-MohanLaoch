@@ -5,51 +5,43 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private Rigidbody rb;
 
-    public CharacterController controller;
-
-    public float speed = 12f;
-    public float gravity = -9.18f;
-    public float jumpHeight = 3f;
-
-    public Transform groundCheck;
-    public float groundDistance = 0.4f;
-    public LayerMask groundMask;
-
-    Vector3 velocity;
-    private bool isGrounded;
-
+    public float MaxSpeed;
+    public float Acceleration;
+    
     public IdealOn VisionMechanic;
 
-    // Update is called once per frame
-    void Update()
+    public GameManager GameManager_;
+    
+    private void Start()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
-        if (isGrounded && velocity.y < 0)
-        {
-            velocity.y = -2f;
-        }
-
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
-
-        Vector3 move = transform.right * x + transform.forward * z;
-
-        controller.Move(move * speed * Time.deltaTime);
-
-        /*
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        }
-        */
-
-        velocity.y += gravity * Time.deltaTime;
-
-        controller.Move(velocity * Time.deltaTime);
+        rb = GetComponent<Rigidbody>();
     }
 
+    private void FixedUpdate()
+    {
+        if (rb.velocity.magnitude < MaxSpeed)
+        {
+            if (Input.GetKey(KeyCode.W))
+            {
+                rb.AddForce((transform.forward * Acceleration));
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                rb.AddForce((transform.forward * -Acceleration));
+            }
+            if (Input.GetKey(KeyCode.A))
+            {
+                rb.AddForce((transform.right * -Acceleration));
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                rb.AddForce((transform.right * Acceleration));
+            }
+        }
+    }
+    
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("powerup"))
@@ -57,6 +49,23 @@ public class PlayerMovement : MonoBehaviour
             PlayerPrefs.SetInt("IsPoweredUp",1);
             Destroy(other.gameObject);
             VisionMechanic.startcount();
+        }
+
+        if (other.gameObject.CompareTag("Death"))
+        {
+            GameManager_.RespawnPlayer();
+        }
+        
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Objects"))
+        {
+            if (VisionMechanic.InsideBuildingTest)
+           {
+               GameManager_.RespawnPlayer();
+           }
         }
     }
 }

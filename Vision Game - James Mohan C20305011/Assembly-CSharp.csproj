@@ -58,7 +58,6 @@
      <Compile Include="Assets\SkythianCat\Glowing_Forest\Scripts\WaterGroup.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\PowerUpReset.cs" />
-     <Compile Include="Assets\Scripts\PlayerSetBack.cs" />
      <Compile Include="Assets\Scripts\LoadLevelOnTrigger.cs" />
      <Compile Include="Assets\Scripts\IdealOn.cs" />
      <None Include="Assets\SineVFX\PostProcessingV2\Shaders\StdLib.hlsl" />
