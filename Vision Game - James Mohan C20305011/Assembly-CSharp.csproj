@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\Dialog.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\RightSideAnimationTrigger.cs" />
+     <Compile Include="Assets\GameEnd.cs" />
      <Compile Include="Assets\SkythianCat\Glowing_Forest\Scripts\WaterGroup.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\PowerUpReset.cs" />

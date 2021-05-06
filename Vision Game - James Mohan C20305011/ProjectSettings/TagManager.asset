@@ -9,6 +9,7 @@ TagManager:
   - Death
   - Key1
   - Key2
+  - TextTrigger
   layers:
   - Default
   - TransparentFX

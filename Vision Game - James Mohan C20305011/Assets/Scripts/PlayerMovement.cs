@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject LeftBarSet;
     public GameObject RightBarSet;
-    
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -26,28 +26,31 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!startCutscene.isCutsceneOn)
+        if (!GameEnd.IsEnd)
         {
-            if (rb.velocity.magnitude < MaxSpeed)
+            if (!startCutscene.isCutsceneOn)
             {
-                if (Input.GetKey(KeyCode.W))
+                if (rb.velocity.magnitude < MaxSpeed)
                 {
-                    rb.AddForce((transform.forward * Acceleration));
-                }
+                    if (Input.GetKey(KeyCode.W))
+                    {
+                        rb.AddForce((transform.forward * Acceleration));
+                    }
 
-                if (Input.GetKey(KeyCode.S))
-                {
-                    rb.AddForce((transform.forward * -Acceleration));
-                }
+                    if (Input.GetKey(KeyCode.S))
+                    {
+                        rb.AddForce((transform.forward * -Acceleration));
+                    }
 
-                if (Input.GetKey(KeyCode.A))
-                {
-                    rb.AddForce((transform.right * -Acceleration));
-                }
+                    if (Input.GetKey(KeyCode.A))
+                    {
+                        rb.AddForce((transform.right * -Acceleration));
+                    }
 
-                if (Input.GetKey(KeyCode.D))
-                {
-                    rb.AddForce((transform.right * Acceleration));
+                    if (Input.GetKey(KeyCode.D))
+                    {
+                        rb.AddForce((transform.right * Acceleration));
+                    }
                 }
             }
         }

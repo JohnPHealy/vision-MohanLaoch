@@ -11,7 +11,7 @@ public class Dialog : MonoBehaviour
     private int index;
     public float typingSpeed;
 
-    public GameObject continueButton;
+   // public GameObject continueButton;
     
     private void Start()
     {
@@ -22,7 +22,7 @@ public class Dialog : MonoBehaviour
     {
         if (texDisplay.text == sentences[index])
         {
-            continueButton.SetActive(true);
+          //  continueButton.SetActive(true);
         }
     }
 
@@ -37,7 +37,7 @@ public class Dialog : MonoBehaviour
 
     public void NextSentence()
     {
-        continueButton.SetActive(false);
+        //continueButton.SetActive(false);
         
         if (index < sentences.Length - 1)
         {
@@ -48,7 +48,7 @@ public class Dialog : MonoBehaviour
         else
         {
             texDisplay.text = "";
-            continueButton.SetActive(false);
+           // continueButton.SetActive(false);
         }
     }
 }

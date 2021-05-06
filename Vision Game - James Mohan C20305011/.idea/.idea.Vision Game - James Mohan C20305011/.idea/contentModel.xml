@@ -11,6 +11,7 @@
             <e p="OFL.txt" t="Include" />
           </e>
         </e>
+        <e p="GameEnd.cs" t="Include" />
         <e p="LeftSideAnimationTrigger.cs" t="Include" />
         <e p="RightSideAnimationTrigger.cs" t="Include" />
         <e p="Scripts" t="Include">
