@@ -53,11 +53,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\startCutscene.cs" />
      <Compile Include="Assets\Scripts\Dialog.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\RightSideAnimationTrigger.cs" />
      <Compile Include="Assets\SkythianCat\Glowing_Forest\Scripts\WaterGroup.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\PowerUpReset.cs" />
+     <Compile Include="Assets\LeftSideAnimationTrigger.cs" />
      <Compile Include="Assets\Scripts\LoadLevelOnTrigger.cs" />
      <Compile Include="Assets\Scripts\IdealOn.cs" />
      <None Include="Assets\SineVFX\PostProcessingV2\Shaders\StdLib.hlsl" />
@@ -715,8 +718,14 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>D:/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>

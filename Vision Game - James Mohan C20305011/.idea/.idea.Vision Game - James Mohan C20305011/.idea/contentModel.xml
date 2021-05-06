@@ -11,6 +11,8 @@
             <e p="OFL.txt" t="Include" />
           </e>
         </e>
+        <e p="LeftSideAnimationTrigger.cs" t="Include" />
+        <e p="RightSideAnimationTrigger.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Dialog.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
@@ -19,6 +21,7 @@
           <e p="MouseLook.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PowerUpReset.cs" t="Include" />
+          <e p="startCutscene.cs" t="Include" />
         </e>
         <e p="SineVFX" t="Include">
           <e p="PostProcessingV2" t="Include">

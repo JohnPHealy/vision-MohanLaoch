@@ -78,9 +78,9 @@
      <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\Utils\EditorUtilities.cs" />
      <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\Effects\ScreenSpaceReflectionsEditor.cs" />
      <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\Utils\CurveEditor.cs" />
-     <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\EffectListEditor.cs" />
      <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\Utils\Styling.cs" />
      <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\Tools\DefineSetter.cs" />
+     <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\EffectListEditor.cs" />
      <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\Decorators\Decorators.cs" />
      <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\Decorators\TrackballDecorator.cs" />
      <Compile Include="Assets\SineVFX\PostProcessingV2\Editor\Tools\ResourceAssetFactory.cs" />

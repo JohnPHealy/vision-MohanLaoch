@@ -13,6 +13,11 @@ public class PlayerMovement : MonoBehaviour
     public IdealOn VisionMechanic;
 
     public GameManager GameManager_;
+
+    public GameObject UsesText;
+
+    public GameObject LeftBarSet;
+    public GameObject RightBarSet;
     
     private void Start()
     {
@@ -21,23 +26,29 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (rb.velocity.magnitude < MaxSpeed)
+        if (!startCutscene.isCutsceneOn)
         {
-            if (Input.GetKey(KeyCode.W))
+            if (rb.velocity.magnitude < MaxSpeed)
             {
-                rb.AddForce((transform.forward * Acceleration));
-            }
-            if (Input.GetKey(KeyCode.S))
-            {
-                rb.AddForce((transform.forward * -Acceleration));
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                rb.AddForce((transform.right * -Acceleration));
-            }
-            if (Input.GetKey(KeyCode.D))
-            {
-                rb.AddForce((transform.right * Acceleration));
+                if (Input.GetKey(KeyCode.W))
+                {
+                    rb.AddForce((transform.forward * Acceleration));
+                }
+
+                if (Input.GetKey(KeyCode.S))
+                {
+                    rb.AddForce((transform.forward * -Acceleration));
+                }
+
+                if (Input.GetKey(KeyCode.A))
+                {
+                    rb.AddForce((transform.right * -Acceleration));
+                }
+
+                if (Input.GetKey(KeyCode.D))
+                {
+                    rb.AddForce((transform.right * Acceleration));
+                }
             }
         }
     }
@@ -46,6 +57,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("powerup"))
         {
+            UsesText.SetActive(true);
             PlayerPrefs.SetInt("IsPoweredUp",1);
             Destroy(other.gameObject);
             VisionMechanic.startcount();
@@ -54,6 +66,18 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Death"))
         {
             GameManager_.RespawnPlayer();
+        }
+
+        if (other.gameObject.CompareTag("Key1"))
+        {
+            Destroy(other.gameObject);
+            Destroy(RightBarSet);
+        }
+        
+        if (other.gameObject.CompareTag("Key2"))
+        {
+            Destroy(other.gameObject);
+            Destroy(LeftBarSet);
         }
         
     }
