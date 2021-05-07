@@ -663,6 +663,9 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
@@ -690,6 +693,9 @@
  <Reference Include="Unity.ProBuilder.Editor">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -704,12 +710,6 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
