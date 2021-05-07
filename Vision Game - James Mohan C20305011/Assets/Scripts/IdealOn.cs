@@ -59,6 +59,9 @@ public class IdealOn : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("IsPoweredUp") == 1)
         {
+            
+            FindObjectOfType<AudioManger>().Play("VisionChange");
+            
             Uses--;
             IsIdeal = true;
             yield return new WaitForSeconds(Timer);

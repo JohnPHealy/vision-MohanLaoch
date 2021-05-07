@@ -54,103 +54,44 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\startCutscene.cs" />
+     <Compile Include="Assets\Scripts\Sound.cs" />
      <Compile Include="Assets\Scripts\Dialog.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\RightSideAnimationTrigger.cs" />
-     <Compile Include="Assets\GameEnd.cs" />
-     <Compile Include="Assets\SkythianCat\Glowing_Forest\Scripts\WaterGroup.cs" />
+     <Compile Include="Assets\Scripts\RightSideAnimationTrigger.cs" />
+     <Compile Include="Assets\Scripts\GameEnd.cs" />
+     <Compile Include="Assets\AssetPacks\SkythianCat\Glowing_Forest\Scripts\WaterGroup.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\PowerUpReset.cs" />
-     <Compile Include="Assets\LeftSideAnimationTrigger.cs" />
+     <Compile Include="Assets\Scripts\LeftSideAnimationTrigger.cs" />
      <Compile Include="Assets\Scripts\LoadLevelOnTrigger.cs" />
      <Compile Include="Assets\Scripts\IdealOn.cs" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\StdLib.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Waveform.shader" />
+     <Compile Include="Assets\Scripts\AudioManger.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVOUpsample.compute" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Distortion.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ExposureHistogram.hlsl" />
-     <None Include="Assets\SineVFX\TranslucentCrystals\Resources\Shaders\SkyboxProceduralDesaturated.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Texture3DLerp.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DeferredFog.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\TemporalAntialiasing.shader" />
-     <None Include="Assets\SineVFX\TranslucentCrystals\Readme.txt" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Dithering.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Bloom.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Vectorscope.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Sampling.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStdFromTexArray.shader" />
+     <None Include="Assets\AssetPacks\SineVFX\TranslucentCrystals\Resources\Shaders\SkyboxProceduralDesaturated.shader" />
+     <None Include="Assets\AssetPacks\SineVFX\TranslucentCrystals\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Lut3DBaker.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Waveform.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\PSSL.hlsl" />
-     <None Include="Assets\SineVFX\TranslucentCrystals\_SRP\!!!_ReadBeforeImport_!!!.txt" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\LightMeter.shader" />
+     <None Include="Assets\AssetPacks\SineVFX\TranslucentCrystals\_SRP\!!!_ReadBeforeImport_!!!.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\AutoExposure.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVORender.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Texture2DLerp.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasingBridge.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DiskKernels.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\D3D11.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVODownsample2.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScalableAO.hlsl" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVO.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Vectorscope.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\D3D9.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScalableAO.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\ACES.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\FinalPass.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Histogram.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Histogram.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Switch.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Metal.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Uber.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\xRLib.hlsl" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStdFromDoubleWide.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\SineVFX\TranslucentCrystals\Resources\Shaders\Crystal.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Overlays.shader" />
+     <None Include="Assets\AssetPacks\SineVFX\TranslucentCrystals\Resources\Shaders\Crystal.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\PSP2.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScreenSpaceReflections.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DepthOfField.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DiscardAlpha.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\OpenGL.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Lut2DBaker.shader" />
+     <None Include="Assets\AssetPacks\KeyModels\Models\Key\readME keys.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStd.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MotionBlur.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVODownsample1.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Fog.hlsl" />
      <None Include="Assets\Fonts\Jomhuria\OFL.txt" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ExposureHistogram.compute" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\GrainBaker.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\GaussianDownsample.compute" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScreenSpaceReflections.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\XboxOne.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Copy.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\D3D12.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DepthOfField.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Vulkan.hlsl" />
-     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Colors.hlsl" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -719,14 +660,8 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>D:/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
- <Reference Include="Cinemachine">
- <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
@@ -770,16 +705,14 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>C:/Users/jamoh/OneDrive/Documents/GitHub/vision-MohanLaoch/Vision Game - James Mohan C20305011/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{0e4450ca-745f-1f1a-ab02-ec46704cf8e2}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{d9b16d86-e576-7566-2c64-45a5591896c0}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

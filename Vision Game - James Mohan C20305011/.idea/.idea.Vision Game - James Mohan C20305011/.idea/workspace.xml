@@ -12,10 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorToolbar.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RightSideAnimationTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialog.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeftSideAnimationTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameEnd.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpReset.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -27,14 +24,17 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSetBack.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevelOnTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/startCutscene.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/IdealOn.cs" />
-      <option value="$PROJECT_DIR$/Assets/LeftSideAnimationTrigger.cs" />
-      <option value="$PROJECT_DIR$/Assets/RightSideAnimationTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/startCutscene.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
-      <option value="$PROJECT_DIR$/Assets/GameEnd.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
+      <option value="$PROJECT_DIR$/Assets/AudioManger.cs" />
+      <option value="$PROJECT_DIR$/Assets/GameEnd.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IdealOn.cs" />
+      <option value="$PROJECT_DIR$/Assets/RightSideAnimationTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/LeftSideAnimationTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameEnd.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qz1VSWFMUF9bC3FPc7Ron0impZ" />
@@ -51,6 +51,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Builds\Vision Game - James Mohan C20305011.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\jamoh\OneDrive\Documents\GitHub\vision-MohanLaoch\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -90,6 +98,7 @@
       <workItem from="1620207902374" duration="8328000" />
       <workItem from="1620302703390" duration="11364000" />
       <workItem from="1620337084842" duration="3272000" />
+      <workItem from="1620388022248" duration="7609000" />
     </task>
     <servers />
   </component>
